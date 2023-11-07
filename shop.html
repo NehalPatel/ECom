@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4" ng-controller="laptopController">
+        <div class="col" ng-repeat="product in products">
+            <div class="card h-100">
+                <img ng-src="https://placehold.co/600x400" class="card-img-top" alt="{{product.name}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.name}}</h5>
+                    <p class="card-text">{{product.description}}</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

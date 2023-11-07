@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="AngularJS Examples for SDJIC Students">
+    <meta name="author" content="Nehal Patel">
+
+    <title>ECommerce</title>
+    <link href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+    <script src="./scripts.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <div class="container py-3">
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+                    <span class="fs-4">ECommerce</span>
+                </a>
+
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#/!">Home</a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#!about">About</a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="#!contact">Contact Us</a>
+                    <a class="py-2 text-dark text-decoration-none" href="#!shop">Shop</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <ng-view></ng-view>
+        </main>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <small class="d-block mb-3 text-muted">&copy; 2023</small>
+                </div>
+                <div class="col-4 col-md">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool stuff</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random feature</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team feature</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource name</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a></li>
+                        <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy & Terms</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

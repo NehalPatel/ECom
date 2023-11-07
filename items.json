@@ -1,0 +1,48 @@
+{
+    "items": [
+        {
+            "laptops": [
+                {
+                    "name": "Laptop 1",
+                    "price": 1000
+                },
+                {
+                    "name": "Laptop 2",
+                    "price": 1200
+                },
+                {
+                    "name": "Laptop 3",
+                    "price": 800
+                }
+            ],
+            "mobiles": [
+                {
+                    "name": "Mobile 1",
+                    "price": 500
+                },
+                {
+                    "name": "Mobile 2",
+                    "price": 700
+                },
+                {
+                    "name": "Mobile 3",
+                    "price": 900
+                }
+            ],
+            "clothes": [
+                {
+                    "name": "Clothes 1",
+                    "price": 50
+                },
+                {
+                    "name": "Clothes 2",
+                    "price": 30
+                },
+                {
+                    "name": "Clothes 3",
+                    "price": 70
+                }
+            ]
+        }
+    ]
+}
