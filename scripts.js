@@ -18,6 +18,8 @@ app.config(function ($routeProvider) {
 
 app.controller("laptopController", function ($scope, $http) {
     $http.get("items.json").then(function (response) {
-        $scope.products = response.items.laptops;
+        $scope.laptops = response.data.items.laptops;
+        $scope.mobiles = response.data.items.mobiles;
+        $scope.tablets = response.data.items.tablets;
     });
 });

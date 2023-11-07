@@ -1,48 +1,55 @@
 {
-    "items": [
-        {
-            "laptops": [
-                {
-                    "name": "Laptop 1",
-                    "price": 1000
-                },
-                {
-                    "name": "Laptop 2",
-                    "price": 1200
-                },
-                {
-                    "name": "Laptop 3",
-                    "price": 800
-                }
-            ],
-            "mobiles": [
-                {
-                    "name": "Mobile 1",
-                    "price": 500
-                },
-                {
-                    "name": "Mobile 2",
-                    "price": 700
-                },
-                {
-                    "name": "Mobile 3",
-                    "price": 900
-                }
-            ],
-            "clothes": [
-                {
-                    "name": "Clothes 1",
-                    "price": 50
-                },
-                {
-                    "name": "Clothes 2",
-                    "price": 30
-                },
-                {
-                    "name": "Clothes 3",
-                    "price": 70
-                }
-            ]
-        }
-    ]
+    "items" : {
+        "laptops" : [
+            {
+                "name" : "Macbook Pro",
+                "description" : "The Macbook Pro is a great laptop",
+                "price" : 1000
+            },
+            {
+                "name" : "Dell XPS",
+                "description" : "The Dell XPS is a great laptop",
+                "price" : 900
+            },
+            {
+                "name" : "Lenovo Thinkpad",
+                "description" : "The Lenovo Thinkpad is a great laptop",
+                "price" : 800
+            }
+        ],
+        "mobiles" : [
+            {
+                "name" : "iPhone 6",
+                "description" : "The iPhone 6 is a great mobile",
+                "price" : 600
+            },
+            {
+                "name" : "Samsung Galaxy S6",
+                "description" : "The Samsung Galaxy S6 is a great mobile",
+                "price" : 500
+            },
+            {
+                "name" : "Nexus 6",
+                "description" : "The Nexus 6 is a great mobile",
+                "price" : 400
+            }
+        ],
+        "tablets" : [
+            {
+                "name" : "iPad Air",
+                "description" : "The iPad Air is a great tablet",
+                "price" : 300
+            },
+            {
+                "name" : "Nexus 9",
+                "description" : "The Nexus 9 is a great tablet",
+                "price" : 200
+            },
+            {
+                "name" : "Samsung Galaxy Tab",
+                "description" : "The Samsung Galaxy Tab is a great tablet",
+                "price" : 100
+            }
+        ]
+    }
 }
