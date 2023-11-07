@@ -16,7 +16,7 @@ app.config(function ($routeProvider) {
         });
 });
 
-app.controller("laptopController", function ($scope, $http) {
+app.controller("shopController", function ($scope, $http) {
     $http.get("items.json").then(function (response) {
         $scope.laptops = response.data.items.laptops;
         $scope.mobiles = response.data.items.mobiles;
